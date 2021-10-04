@@ -104,10 +104,12 @@ https://stripe.com/docs/js/initializing#init_stripe_js-options-apiVersion
 #### Locale - `locale`
 
 - **Optional**
-- **Default**: `'en'`
+- **Default**: `'auto'`
 
 A locale used to globally configure localization in Stripe. Setting the locale here will localize
-error strings for all Stripe.js methods. It will also configure the locale for Elements and Checkout. Default is auto (Stripe detects the locale of the browser).
+error strings for all Stripe.js methods. It will also configure the locale for Elements and Checkout. Default is auto (Stripe detects the locale of the browser). Possible values:
+
+https://stripe.com/docs/js/appendix/supported_locales
 
 #### Stripe Account - `stripeAccount`
 
